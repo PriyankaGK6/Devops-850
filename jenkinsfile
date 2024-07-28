@@ -1,0 +1,10 @@
+pipiline
+{
+    stages
+    {
+     stage (print a message)
+       {
+          steps { echo 'hello_jenkins' }    
+       }
+    }
+}
